@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+            font-family: 'Nunito', sans-serif;
+font-family: 'Roboto Slab', serif;
+        }
+   
+       
+        .final{
+            width: 100%;
+            height: 100vh;
+            background-image:  linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.9)) ,url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg" );
+           
+            background-size: cover;
+            overflow-x: hidden;
+        }
+        .start{
+            width: 100%;
+            height: 100px;
+           
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            margin-left: -650px;
+        }
+        .option{
+            position: absolute;
+            display: flex;
+            margin-left: 1000px;
+        }
+        #all{
+            border: 2px solid white;
+            padding: 5px 20px;
+            font-size: 15px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button{
+            margin: 0 10px;
+            padding: 5px 20px;
+            font-size: 15px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 7px;
+        }
+        .heading{
+            width: 100%;
+            
+            margin: auto;
+            text-align: center;
+
+        }
+        h1{
+            margin-top: 150px;
+            font-size: 30px;
+            font-weight: 800;
+            color: white;
+
+        }
+        p{
+            margin-top: 20px;
+            font-size: 20px;
+            line-height: 40px;
+          color: white;
+        }
+         .inpt{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+         }
+         #inp{
+            padding: 12px 60px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 3px;
+
+         }
+         .btn{
+            margin-top: 10px;
+            font-size: 30px;
+         }
+       button{
+        padding: 7px 30px;
+        font-size: 25px;
+        cursor: pointer;
+       }
+       #inp::placeholder{
+        position: relative;
+        text-align: start;
+        font-size: 20px;
+       }
+       /* new Page and next page */
+       .middle{
+        width: 100%;
+        height: 600px;
+        margin: auto;
+        display: flex;
+        background-image: linear-gradient(45deg,black,black);
+        overflow-x: hidden;
+       
+       
+       }
+      .mid{
+        margin-top: 250px;
+      }
+      .head{
+        margin-left: 200px;
+      }
+       h3{
+        font-size: 45px;
+        font-weight: 900;
+        color: white;
+
+       }
+       span{
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+        color: white;
+       }
+       .hero{
+        margin-left: 1400px;
+        margin-top: -200px;
+       }
+       hr{
+        width: 100%;
+        height: 7px;
+        background-color: #3e3c3c;
+        border: none;
+       }
+       /* new Page and next page */
+       .mobile{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        background-image: linear-gradient(45deg,black,black);
+        overflow-x: hidden;
+        }
+        .second{
+            display: flex;
+            flex-direction: column;
+            margin-left: 850px;
+            margin-top: 200px
+        }
+        .herosss{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -200px;
+            margin-left: 50px;
+        
+        }
+        h4{
+            font-size: 45px;
+            font-weight: 900;
+            color: white;
+
+        }
+        h6{
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+        }
+    hr{
+        width: 100%;
+        height: 7px;
+        background-color: #3e3c3c;
+        border: none 
+    }
+    /* new Page and next page */
+    .help{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        background-image: linear-gradient(45deg, black,black);
+        overflow-x: hidden;
+    }
+    .heroin{
+        display: flex;
+            flex-direction: column;
+            margin-left: 100px;
+            margin-top: 200px
+    }
+    .ash{
+       display: flex;
+       display: flex;
+       width: 300px;
+       height: 300px;
+       margin-left: 1450px;
+       margin-top: -200px;
+
+
+        
+          
+          
+      
+    }
+    h2{
+        font-size: 45px;
+            font-weight: 900;
+            color: white; 
+    }
+    h5{
+        font-size: 20px;
+            font-weight: 600;
+            color: white;  
+    }
+    hr{
+        width: 100%;
+        height: 7px;
+        background-color: #3e3c3c;
+        border: none 
+    }
+    /* new Page and next page */
+    .children{
+        width: 100vw;
+        height: 500px;
+        display: flex;
+        background-image: linear-gradient(45deg, black,black); 
+        overflow-y: hidden;
+        
+        overflow-x: hidden;
+    }
+    .childhero{
+        display: flex;
+            flex-direction: column;
+            margin-left: 850px;
+            margin-top: 200px
+    }
+    .childimg{
+        display: flex;
+       display: flex;
+       
+       margin-left: 750px;
+       margin-top: -250px;
+    }
+    h7{
+        font-size: 45px;
+            font-weight: 900;
+            color: white; 
+    }
+    h{
+        font-size: 20px;
+            font-weight: 600;
+            color: white;  
+    }
+    hr{
+        width: 100%;
+        height: 7px;
+        background-color: #3e3c3c;
+        border: none
+    }
+hr{
+    width: 100%;
+        height: 7px;
+        background-color: #3e3c3c;
+        border: none  
+}
+/* Detailer in netflix */
+
+.asidemain{
+    width: 100%;
+        height: 800px;
+        display: flex;
+        background-image: linear-gradient(45deg, black,black); 
+        overflow: hidden;
+        
+       
+       
+}
+.asidchildhero{
+            display: flex;
+            width: 100vw;
+
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-top: 40px;
+
+
+}
+h8{
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+}
+   .asidelist{
+    width: 1170px;
+    height: 75px;
+    background-image: linear-gradient(45deg,#302d2d,hwb(0 65% 31%));
+    display: flex;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+  
+   
+
+   }
+   ul{
+    color: white;
+    margin-left: 70px;
+   
+   
+   }
+  .fa-plus{
+    margin-left: 830px;
+  }
+  
+  .end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   margin-top: -100px;
+  }
+  h10{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+  
+  }
+  .hesadingend{
+    margin-top: -40px;
+  }
+  .endandlast{
+    display: flex;
+    margin-top: 10px;
+
+  }
+  #inps{
+           padding: 16px 60px;
+        
+            cursor: pointer;
+          
+       }
+       #ekbar{
+        padding: 10px 60px;
+          
+            cursor: pointer;
+            border: none;
+       }
+       #inps::placeholder{
+        font-size: 20px;
+        font-weight: 500;
+       }
+       /* Fotter............................................................... */
+     .footermain{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        background-image: linear-gradient(45deg, black,black); 
+     }
+     .footerchildhero{
+      
+        
+        margin-top: 100px;
+        margin-left: 300px;
+     }
+     .footerchillist{
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+        margin-top: 30px;
+        color: white;
+        justify-content: flex-start;
+        text-align: start;
+        
+     }
+     h12{
+        font-size: 20px;
+        font-weight: 300;
+        text-decoration: underline;
+        line-height: 45px;
+     }  
+    
+     h11{
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        
+     }
+     .footerlistSecond{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-left: 800px;
+        margin-top: -235px;
+     }
+     .englishHindi{
+        display: flex;
+        
+     }
+     .starthindi{
+        color: white;
+        font-size: 25px;
+        background: black;
+        border: 2px solid white;
+      
+     }
+    #newName{
+        position: absolute;
+        font-size: 20px;
+        padding: 10px 25px;
+        margin-top: -300px;
+        margin-left: 300px;
+        background: black;
+        border: 2px solid white;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+   h15{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -230px;
+    margin-left: 300px;
+ 
+   }
+    </style>
+
+</head>
+<body>
+    <nav>
+        <div class="final">
+        <div class="start">
+            <div class="main">
+                <ul>
+                    <li><img src="./netflix.png"   width="200px" height="100px" alt="netflix"></li>
+                    <div class="option">
+                        <select name="" id="all">
+                            <option value="English">English</option>
+                            <option value="Hindi">Hindi</option>
+                        </select>
+                        <button>SingIn</button>
+                    </div>
+                
+                </ul>
+            </div>
+        </div>
+        <div class="heading">
+            <h1>
+                Unlimited movies, TV shows and more 
+            </h1>
+            <p>Watch anywhere. Cancel anytime. <br>
+
+                Ready to watch? Enter your email to create or restart your membership.
+            </p>
+            <div class="inpt">
+                <input type="email" name="" id="inp" placeholder=" Email address">
+                <div class="btn">
+                    <button >Get Started</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </nav>
+    <!-- Section middle section in netflix -->
+    <section>
+        <hr>
+        <div class="middle">
+       
+            <div class="mid">
+                <div class="head">
+                    <h3>Enjoy on your TV</h3>
+                    <span>Watch on smart TVs, PlayStation, Xbox, Chromecast,<br> Apple TV, Blu-ray players and more.</span>
+                </div>
+                <div class="hero">
+                    <img src="./netflix.tv.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- header -->
+    <header>
+      <hr>
+        <div class="mobile">
+         
+            <div class="secondlast">
+                <div class="second">
+                    <h4>Download your shows to watch offline</h4>
+                    <h6>Save your favourites easily and always have something to watch.</h6>
+                </div>
+                <div class="herosss">
+                    <img src="./netmobile.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <hr>
+        <div class="help">
+       
+            <div class="hello">
+                <div class="heroin">
+                    <h2>Watch everywhere</h2>
+                    <h5>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h5>
+                </div>
+                <div class="ash">
+                    <img src="./Netflix-Profile-Transfer-1.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Article -->
+    <article>
+        <hr>
+        <div class="children">
+       
+            <div class="child">
+                <div class="childhero">
+                    <h7>Create profiles for kids</h7>
+                    <h>Send children on adventures with their favourite <br> characters in a space made just for them—free with <br> your membership.</h>
+                </div>
+                <div class="childimg">
+                    <img src="./childrennetflix.png" alt="">
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Details and secound last is netflix -->
+    <aside>
+        <hr>
+        <div class="asidemain">
+       
+            <div class="asidchild">
+                <div class="asidchildhero">
+                    <h8>Frequently Asked Questions</h8>
+                  
+                </div>
+                <div class="asidelist">
+                    <ul>
+                        
+                        <li>What is Netflix?</li>
+                        <li><i class="fa-solid fa-plus"></i></li>
+                    </ul>
+                    
+                   
+                </div>
+                <div class="asidelist">
+                    <ul>
+                        
+                        <li>What is Netflix?</li>
+                        <li><i class="fa-solid fa-plus"></i></li>
+                    </ul>
+                    
+                   
+                </div>
+                <div class="asidelist">
+                    <ul>
+                        
+                        <li>What is Netflix?</li>
+                        <li><i class="fa-solid fa-plus"></i></li>
+                    </ul>
+                    
+                   
+                </div>
+                <div class="asidelist">
+                    <ul>
+                        
+                        <li>What is Netflix?</li>
+                        <li><i class="fa-solid fa-plus"></i></li>
+                    </ul>
+                    
+                   
+                </div>
+                <div class="asidelist">
+                    <ul>
+                        
+                        <li>What is Netflix?</li>
+                        <li><i class="fa-solid fa-plus"></i></li>
+                    </ul>
+                    
+                   
+                </div>
+                <div class="asidelist">
+                    <ul>
+                        
+                        <li>What is Netflix?</li>
+                        <li><i class="fa-solid fa-plus"></i></li>
+                    </ul>
+                    
+                   
+                </div>
+               
+                
+                
+            </div>
+        </div>
+        <div class="end">
+            <div class="hesadingend">
+                <h10>Ready to watch? Enter your email to create or restart your membership.</h10>
+            </div>
+            <div class="endandlast">
+                <input type="email" name="" id="inps" placeholder="Email address">
+            <button id="ekbar">Get Started</button>
+            </div>
+        </div>
+      
+    </aside>
+    
+    
+    <!-- footer.................................................... -->
+   <footer>
+    <hr>
+    <div class="footermain">
+     
+        <div class="footerchild">
+          
+            <div class="footerchildhero">
+                <h11>Questions? Call +91-723781556</h11>
+                
+            </div>
+            <div class="footerchillist">
+               <h12>FAQ</h12>
+               <h12>Media Centre</h12>
+               <h12>Ways to Watch</h12>
+               <h12>Cookie Preferences</h12>
+               <h12>Speed Test</h12>
+               
+            </div>
+            <div class="footerlistSecond">
+                <h12>Help Center</h12>
+                <h12>INvestor Relations</h12>
+                <h12>Terms of Use</h12>
+                <h12>Corporate Information</h12>
+                <h12>Legal Notices</h12>
+                
+             </div>
+        </div>
+    </div>
+    <div class="englishHindi">
+        <div class="starthindi">
+            <select name="" id="newName">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+          <h15>Netflix India</h15>
+        </div>
+    </div>
+   </footer>
+</body>
+</html>
